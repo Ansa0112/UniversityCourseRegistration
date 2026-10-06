@@ -10,7 +10,18 @@ public class UniversityCourseRegistration {
                 "Software Engineering"
         );
 
+        Course course = new Course(
+                "SE-201",
+                "Software Engineering",
+                3
+        );
+
         System.out.println("===== STUDENT INFORMATION =====");
         student.displayStudent();
+
+        System.out.println();
+
+        System.out.println("===== COURSE INFORMATION =====");
+        course.displayCourse();
     }
 }
