@@ -4,12 +4,12 @@ package com.mycompany.universitycourseregistration;
 public class UniversityCourseRegistration {
 
     public static void main(String[] args) {
-         Student student = new Student(
+
+        Student student = new Student(
                 "2024-SE-117",
                 "Ansa Sajid",
                 "Software Engineering"
         );
-
 
         Course course = new Course(
                 "SE-201",
@@ -21,5 +21,7 @@ public class UniversityCourseRegistration {
                 new Registration(student, course);
 
         registration.displayRegistration();
+
+        registration.displayConfirmation();
     }
 }
